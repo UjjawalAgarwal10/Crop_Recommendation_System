@@ -66,7 +66,9 @@ I have evaluated model using multiple weighted metrics on the held-out test set:
 Below graphs depicts Confusion Matrix and Classification Report of above trained model.
 - **Graph1 : Confusion Matrix **
 >![Confusion Matrix](results/confusion_matrix.png)
-  
+
+- **Graph2 : Classification Report **
+>![Classification Report](results/Classification_report.png)
 
 
 
