@@ -15,7 +15,6 @@
 - Flask Recommendation Web Application
 - Project Structure
 - Tech Stack
-- How to run
 - Future Improvements
 
 ## 📌 Overview :-
@@ -116,7 +115,7 @@ print(f"Predicted Crop: {predicted_crop[0]}")
 
 
 ## 📁 Project Structure :-
-'''
+```
 Crop-Recommendation-System/
 │
 ├── Crop_Recommendation_System.ipynb   # Main notebook (EDA + Model + Evaluation)
@@ -129,4 +128,4 @@ Crop-Recommendation-System/
 │   ├── style.css                      # Stylesheet
 │   └── farm.jpg                       # Background image
 └── README.md                          # Project documentation
-'''
+```
