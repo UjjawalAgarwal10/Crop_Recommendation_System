@@ -129,10 +129,14 @@ Crop-Recommendation-System/
 │   └── farm.jpg                       # Background image
 └── README.md                          # Project documentation
 ```
-## 🚀 Future Improvements
+## 🚀 Future Improvements :-
 
 - Add **input validation** and error handling on the Flask form (e.g. range checks for N/P/K, pH)
 - Style the frontend and add **loading/result animations** for better UX
 - Add **hyperparameter tuning** (GridSearchCV/RandomizedSearchCV) for further accuracy gains
 - Compare with other models (XGBoost, SVM, KNN) for benchmarking
 - Add **feature importance analysis** to interpret which factors drive each crop recommendation
+
+## License :-
+- This project is open source and available for educational and personal use. Feel free to fork and adapt it.
+
