@@ -11,7 +11,7 @@
 - Model Evaluation
 - Visualization Graphs
 - Model Serialization
-- Recommendation
+- Model Prediction
 - Flask Web Application
 - Tech Stack
 - How to run
@@ -81,7 +81,7 @@ bundle = {
     "classes": model.classes_
 }
 ```
-## 🌱 Recommendation :-
+## 🌱 Model Prediction :-
 ```python
 import pickle as pkl
 import pandas as pd
@@ -97,6 +97,7 @@ print(f"Predicted Crop: {predicted_crop[0]}")
 ```
 
 ---
+>![Model Prediction](results/Pred.png)
 
 
 
