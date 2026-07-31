@@ -20,3 +20,15 @@
 ## 📌 Overview :
 - This project uses [Crop Recommendation Dataset](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset) to train a **RandomForestClassifier Model** that predicts the best crop to grow for a given set of soil and climate conditions.
 - The pipeline contains model exploration, preprocessing, training, evaluation, visualization and is deployed using **Flask Web API** where user can input soil and climate conditions through a form and wil get instant recommendation.
+
+## 📊 Dataset
+
+| Detail | Value |
+|--------|-------|
+| Source | Crop Recommendation Dataset (Kaggle) |
+| Rows | 2200 |
+| Features | 7 → `N`, `P`, `K`, `temperature`, `humidity`, `ph`, `rainfall` |
+| Target | `label` — 22 crop types (rice, maize, cotton, coffee, banana, etc.) |
+| Missing Values | None |
+| Duplicate Rows | None |
+
