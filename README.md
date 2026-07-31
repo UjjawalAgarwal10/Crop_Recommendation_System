@@ -114,3 +114,19 @@ print(f"Predicted Crop: {predicted_crop[0]}")
 **Graph3: Fianl Recommendation after user input :**
 >![Final Recommendation](recommends/Final_recommendation.png)
 
+
+## 📁 Project Structure :-
+'''
+Crop-Recommendation-System/
+│
+├── Crop_Recommendation_System.ipynb   # Main notebook (EDA + Model + Evaluation)
+├── Crop_recommendation.csv            # Dataset
+├── Crop_Recommendation_RF.pkl         # Saved model + scaler bundle
+├── app.py                             # Flask backend for web deployment
+├── templates/
+│   └── login.html                     # Frontend form + prediction display
+├── static/
+│   ├── style.css                      # Stylesheet
+│   └── farm.jpg                       # Background image
+└── README.md                          # Project documentation
+'''
