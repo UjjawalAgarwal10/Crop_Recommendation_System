@@ -11,7 +11,7 @@
 - Model Evaluation
 - Visualization Graphs
 - Model Serialization
-- Prediction
+- Recommendation
 - Flask Web Application
 - Tech Stack
 - How to run
@@ -81,6 +81,10 @@ bundle = {
     "classes": model.classes_
 }
 ```
+
+
+
+>![Recommendation Image](Recommend_images/Recommend_image.png)
 
 
 
