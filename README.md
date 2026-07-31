@@ -70,6 +70,18 @@ Below graphs depicts Confusion Matrix and Classification Report of above trained
 - **Graph2 : Classification Report **
 >![Classification Report](results/Classification_report.png)
 
+## 💾 Model Serialization :-
+- The trained model is saved along with its `StandardScaler` in a single  bundle to ensure correct preprocessing is applied at inference time.
+- It also avoids the common bug of feeding unscaled raw input to a model is trained on sclaed data.
+```python
+bundle = {
+    "model": model,
+    "scaler": scaler,
+    "features_cols": ['N','P','K','temperature','humidity','ph','rainfall'],
+    "classes": model.classes_
+}
+```
+
 
 
 
