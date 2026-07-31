@@ -104,6 +104,9 @@ print(f"Predicted Crop: {predicted_crop[0]}")
   real-time crop recommendation.
 - This web application contains three as shown in graphs below.
 
-**Graph1: Simple user form before input :**
+**Graph1: Simple user form before user input :**
 >![No user input](recommends/Before_user_input.png)
+
+**Graph2: User Input form :**
+
 
