@@ -12,7 +12,7 @@
 - Visualization Graphs
 - Model Serialization
 - Model Prediction
-- Flask Web Application
+- Flask Web Recommendation Application
 - Tech Stack
 - How to run
 - Future Improvements
@@ -99,6 +99,8 @@ print(f"Predicted Crop: {predicted_crop[0]}")
 ---
 >![Model Prediction](results/Pred.png)
 
-
-
+## 🌐 Flask Web Recommendation Application :-
+- The trained model bundle is served through a lightweight **Flask** app (`app.py`), allowing users to enter soil and climate values via a web form and get a
+  real-time crop recommendation.
+>![Final Recommendation](
 
