@@ -103,6 +103,8 @@ print(f"Predicted Crop: {predicted_crop[0]}")
 - The trained model bundle is served through a lightweight **Flask** app (`app.py`), allowing users to enter soil and climate values via a web form and get a
   real-time crop recommendation.
 - This web application contains three as shown in graphs below.
-- **Graph1: Simple user form before input**
+
+**Graph1: Simple user form before input :**
+>![Before user input](Web_Application_Images/Before user input.png)
 
 
