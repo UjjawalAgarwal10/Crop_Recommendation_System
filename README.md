@@ -9,7 +9,7 @@
 - Preprocessing and Feature Scaling
 - Model Training
 - Model Evaluation
-- Visualization Images
+- Visualization Graphs
 - Model Serialization
 - Prediction
 - Flask Web Application
