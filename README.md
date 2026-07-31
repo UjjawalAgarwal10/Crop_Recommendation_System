@@ -81,10 +81,22 @@ bundle = {
     "classes": model.classes_
 }
 ```
+## 🌱 Recommendation :-
+```python
+import pickle as pkl
+import pandas as pd
 
+with open("Crop_Recommendation_RF.pkl", "rb") as f:
+    bundle = pkl.load(f)
 
+sample = pd.DataFrame([[90, 40, 40, 20, 80, 7, 200]], columns=bundle["features_cols"])
+sample_scaled = bundle["scaler"].transform(sample)
+predicted_crop = bundle["model"].predict(sample_scaled)
 
->![Recommendation Image](Recommend_images/Recommend_image.png)
+print(f"Predicted Crop: {predicted_crop[0]}")
+```
+
+---
 
 
 
