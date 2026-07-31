@@ -64,7 +64,7 @@ I have evaluated model using multiple weighted metrics on the held-out test set:
 
 ## 📊 Visualization Graphs :-
 - **Graph1 : Confusion Matrix **
-<[!Confusion Matrix](results/confusion_matrix.png)
+<[Confusion Matrix](results/confusion_matrix.png)
   
 
 
