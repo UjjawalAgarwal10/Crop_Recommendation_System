@@ -108,5 +108,6 @@ print(f"Predicted Crop: {predicted_crop[0]}")
 >![No user input](recommends/Before_user_input.png)
 
 **Graph2: User Input form :**
+>![User input form](recommends/User_Input_form.png)
 
 
