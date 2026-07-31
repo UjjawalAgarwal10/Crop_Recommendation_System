@@ -51,6 +51,17 @@ I have trained a model using **RandomForestClassifier** which is present in **sk
 - 3.min_samples_split: 5
 - 4.min_samples_leaf: 5
 - 5.random_state: 42
+
+## 📈 Model Evaluation
+I have evaluated model using multiple weighted metrics on the held-out test set:
+| Metric | Score |
+|--------|-------|
+| Training Accuracy | 99.66% |
+| Testing Accuracy | 99.55% |
+| Precision (weighted) | 99.57% |
+| F1-Score (weighted) | 99.55% |
+| Recall (weighted) | 99.55% |
+
   
 
 
