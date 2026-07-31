@@ -105,6 +105,5 @@ print(f"Predicted Crop: {predicted_crop[0]}")
 - This web application contains three as shown in graphs below.
 
 **Graph1: Simple user form before input :**
->![Before user input](Web_Application_Images/Before user input.png)
 
 
