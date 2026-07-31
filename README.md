@@ -32,3 +32,9 @@
 | Missing Values | None |
 | Duplicate Rows | None |
 
+## 🔍 Exploratory Data Analysis (EDA)
+
+- Verified dataset shape, column data types, and absence of null/duplicate values
+- Analyzed unique value counts and class-wise label distribution (`value_counts`)
+- Computed group-wise feature means per crop label (`groupby("label").mean()`) to understand how nutrient/climate profiles differ across crops
+
