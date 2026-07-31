@@ -102,5 +102,7 @@ print(f"Predicted Crop: {predicted_crop[0]}")
 ## 🌐 Flask Recommendation Web Application :-
 - The trained model bundle is served through a lightweight **Flask** app (`app.py`), allowing users to enter soil and climate values via a web form and get a
   real-time crop recommendation.
->![Final Recommendation](Recommend_images/Recommend_image.png)
+- This web application contains three as shown in graphs below.
+- **Graph1: Simple user form before input**
+
 
