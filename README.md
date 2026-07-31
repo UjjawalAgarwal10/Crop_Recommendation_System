@@ -9,6 +9,7 @@
 - Preprocessing and Feature Scaling
 - Model Training
 - Model Evaluation
+- Visualization Images
 - Model Serialization
 - Prediction
 - Flask Web Application
@@ -17,4 +18,5 @@
 - Future Improvements
 
 ## 📌 Overview :
-- This project uses **Crop
+- This project uses [Crop Recommendation Dataset](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset) to train a **RandomForestClassifier Model** that predicts the best crop to grow for a given set of soil and climate conditions.
+- The pipeline contains model exploration, preprocessing, training, evaluation, visualization and is deployed using **Flask Web API** where user can input soil and climate conditions through a form and wil get instant recommendation.
