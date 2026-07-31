@@ -13,6 +13,7 @@
 - Model Serialization
 - Model Prediction
 - Flask Recommendation Web Application
+- Project Structure
 - Tech Stack
 - How to run
 - Future Improvements
@@ -110,4 +111,6 @@ print(f"Predicted Crop: {predicted_crop[0]}")
 **Graph2: User Input form :**
 >![User input form](recommends/User_Input_form.png)
 
+**Graph3: Fianl Recommendation after user input :**
+>![Final Recommendation](recommends/Final_recommendation.png)
 
